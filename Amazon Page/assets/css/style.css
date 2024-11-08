@@ -3,23 +3,157 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    width: 100%;
-    background-color: #222F3E;
+header,
+footer {
+  width: 100%;
+  background-color: #222f3e;
 }
 
 #logo {
-    background-color: #222F3E;
-    width: 12%;
-    padding-left: 30px;
+  background-color: #222f3e;
+  width: 12%;
+  padding-left: 30px;
 }
-#logo img{
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-    margin: 3% auto;
+#logo img {
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  margin: 3% auto;
+}
+#testo,
+#testofooter {
+  background-color: #364759;
+}
+#testo p {
+  padding-left: 0.8%;
+  padding-top: 0.6%;
+  padding-bottom: 0.6%;
+  font-size: 0.9em;
+}
+.hlink {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+main {
+  text-align: center;
+  background-color: #eaeded;
+}
+article {
+  width: 98.4%;
+  margin: 2% 0.8%;
+}
+h2 {
+  background-color: #f56600;
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+#titolo {
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  margin: 2% auto;
+  color: white;
+}
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-top: 2em;
+  padding-bottom: 0.9em;
+}
+h3 {
+  padding-bottom: 3em;
+  font-weight: bold;
+}
+h4 {
+  text-align: left;
+  font-size: medium;
+  padding-left: 1.6em;
+  margin-bottom: 1.5em;
+  font-weight: normal;
+}
+h4 a {
+  font-size: small;
+  color:  #3bb5be;;
+  text-decoration: none;
+  padding-left: 2em;
+  font-weight: bold;
+}
+
+#contenitorefloat {
+  margin: auto;
+  display:inline-block;
+}
+
+.container{
+    background-color: white;
+    padding: 5px 20px 20px 20px;
+    
+}
+
+.imgf {
+  width: 20%;
+  height: 20em;
+  margin: auto 2%;
+  float: left;
+}
+.imgf img {
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px rgba(37, 34, 34, 0.425);
+}
+.imgfinale {
+    margin: 3em auto;
+    background-color: #eaeded;
+}
+
+.imgfinale img {
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+figcaption p {
+  font-size: medium;
+}
+figcaption p a {
+  font-size: small;
+  font-weight: bolder;
+  color: #3bb5be;
+  text-decoration: none;
+  padding-left: 2em;
+}
+footer {
+  text-align: center;
+}
+#testofooter {
+  padding: 10px;
+  font-size: 1em;
+}
+
+footer a {
+  color: white;
+  font-size: 0.6em;
+}
+#logofooter {
+  width: 12%;
+  margin: auto 44%;
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+#logofooter img {
+  background-size: contain;
+  width: 100%;
+  height: 100%;
 }
