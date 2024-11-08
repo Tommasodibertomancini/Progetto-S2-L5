@@ -18,7 +18,7 @@ footer {
 
 #logo {
   background-color: #222f3e;
-  width: 12%;
+  width: 10%;
   padding-left: 30px;
 }
 #logo img {
@@ -59,22 +59,38 @@ h2 {
   font-size: 0.9em;
   font-weight: normal;
 }
-#titolo {
-  background-image: url(../images/bg-image.png);
-  background-size: contain;
-  margin: 2% auto;
+.banner-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.banner-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.banner-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
   color: white;
-}
-h1 {
-  font-size: xx-large;
-  font-weight: bolder;
-  padding-top: 2em;
-  padding-bottom: 0.9em;
-}
-h3 {
-  padding-bottom: 3em;
+  text-align: center;
   font-weight: bold;
+  transform: translate(-50%, -50%);
 }
+
+.banner-text2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  font-size: 0.9em;
+}
+
 h4 {
   text-align: left;
   font-size: medium;
@@ -84,7 +100,7 @@ h4 {
 }
 h4 a {
   font-size: small;
-  color:  #3bb5be;;
+  color: #007195;
   text-decoration: none;
   padding-left: 2em;
   font-weight: bold;
@@ -92,13 +108,15 @@ h4 a {
 
 #contenitorefloat {
   margin: auto;
-  display:inline-block;
+  display: inline-block;
 }
 
-.container{
-    background-color: white;
-    padding: 5px 20px 20px 20px;
-    
+.container {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+  padding: 5px 20px 20px 20px;
 }
 
 .imgf {
@@ -115,8 +133,8 @@ h4 a {
   box-shadow: 10px 10px 5px rgba(37, 34, 34, 0.425);
 }
 .imgfinale {
-    margin: 3em auto;
-    background-color: #eaeded;
+  margin: 3em auto;
+  background-color: #eaeded;
 }
 
 .imgfinale img {
@@ -130,25 +148,25 @@ figcaption p {
 figcaption p a {
   font-size: small;
   font-weight: bolder;
-  color: #3bb5be;
+  color: #007195;
   text-decoration: none;
-  padding-left: 2em;
+  padding-left: 10px;
 }
 footer {
   text-align: center;
 }
 #testofooter {
-  padding: 10px;
-  font-size: 1em;
+  padding: 5px;
+  font-size: 1.2em;
 }
 
 footer a {
   color: white;
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 #logofooter {
-  width: 12%;
-  margin: auto 44%;
+  width: 10%;
+  margin: auto;
   padding-bottom: 4em;
   padding-top: 4em;
 }
